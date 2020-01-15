@@ -57,8 +57,8 @@ def dennis_ritchies_language
         }
      }
 
-	answer = programmer_hash[:dennis_ritchie][:languages]
-	answer.flatten
+	programmer_hash[:dennis_ritchie][:languages][0]
+
 end
 
 def adding_matz
